@@ -1,6 +1,8 @@
 {
   "threshold": 4,
-  "reporters": ["consoleFull"],
+  "reporters": [
+    "consoleFull"
+  ],
   "ignore": [
     "node_modules/**",
     "dist/**",
@@ -12,7 +14,8 @@
     "tests/conformance/**/*.c",
     "tests/conformance/**/*.m",
     "tests/conformance/**/*.swift",
-    "tests/conformance/**/*.xib"
+    "tests/conformance/**/*.xib",
+    "research/**"
   ],
   "gitignore": true,
   "minLines": 5,
